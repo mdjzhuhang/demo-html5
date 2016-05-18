@@ -1,0 +1,14 @@
+.box{
+}
+.element {
+	width: 200px;
+	height:300px;
+  	overflow: hidden;
+ 	color: #000;
+  border: 1px solid #000;
+  background: url(background.png);
+  background-size:100% 100%;
+  -webkit-mask-image: url(mask.png);
+  -webkit-mask-size:100% 100%;
+  
+}

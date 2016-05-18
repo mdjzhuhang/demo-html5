@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>canvas-drawImage()</title>
+</head>
+<body>
+	<p>globalCompositeOperation 属性设置或返回如何将一个源（新的）图像绘制到目标（已有）的图像上。</p>
+	<p>
+		源图像 = 您打算放置到画布上的绘图.
+		目标图像 = 您已经放置在画布上的绘图.
+	</p>
+	<p>destination-in---------在源图像中显示目标图像。只有源图像内的目标图像部分会被显示，源图像是透明的。</p>
+	<p>globalCompositeOperation = "source-over";默认。在目标图像上显示源图像。</p>
+	<img id="img" src="background.png" width="200">
+	<img id="mask" src="mask.png" width="200">
+	
+	<canvas id="myCanvas" width="600" height="900" style="border:1px solid #000;"></canvas>
+
+	<script type="text/javascript">
+		var img=document.getElementById("img");
+		var mask=document.getElementById("mask");
+		//注意，先加载img，所以先img.onload,否则不会在出发onload事件
+		img.onload=function(){
+			mask.onload=function(){
+				
+				var c=document.getElementById("myCanvas");
+				console.log(c);
+				var ctx=c.getContext("2d");
+				
+				ctx.beginPath();
+				ctx.drawImage(img,10,10,500,600);
+				ctx.restore();
+				ctx.globalCompositeOperation = 'destination-in';
+				ctx.beginPath();
+				ctx.drawImage(mask, 0,0,500,700);
+				var img_B64 = c.toDataURL("image/png");
+				console.log(img_B64);
+			}
+		}
+		
+		
+	</script>
+</body>
+</html>
