@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ajax--blob</title>
+</head>
+<body>
+	<div id="forAppend" class="demo">
+		<p>URL.createObjectURL()方法会根据传入的参数创建一个指向该参数对象的URL. 这个URL的生命仅存在于它被创建的这个文档里. 新的对象URL指向执行的File对象或者是Blob对象.</p>
+		<p>URL.revokeObjectURL()方法会释放一个通过URL.createObjectURL()创建的对象URL. 当你要已经用过了这个对象URL,然后要让浏览器知道这个URL已经不再需要指向对应的文件的时候,就需要调用这个方法.</p>
+	</div>
+
+	<script type="text/javascript">
+		var eleAppend = document.getElementById("forAppend");
+		window.URL = window.URL || window.webkitURL;
+		if (typeof history.pushState == "function") {
+		    var xhr = new XMLHttpRequest();    
+		    xhr.open("get", "background.png", true);
+		    xhr.responseType = "blob";
+		    xhr.onload = function() {
+		        if (this.status == 200) {
+		            var blob = this.response;
+		            var img = document.createElement("img");
+		            img.onload = function(e) {
+		              window.URL.revokeObjectURL(img.src); // 清除释放
+		            };
+		            img.src = window.URL.createObjectURL(blob);
+		            eleAppend.appendChild(img);    
+		        }
+		    }
+		    xhr.send();
+		} else {
+		    eleAppend.innerHTML = '<p>浏览器不给力</p>';    
+		}
+	</script>
+</body>
+</html>

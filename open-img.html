@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>打开本地图片</title>
+	<script type="text/javascript" src="zepto.js"></script>
+</head>
+<body>
+	<p>
+		用$(this).val()获取input标签的file地址，得到的是fakepath
+	</p>
+	<p>
+		例如：file:///C:/fakepath/background.png
+	</p>
+	<p>由于安全性的原因，从ie8以上的浏览器就封闭了这个接口，所以返回来的都是fakepath这样的路径，你如果想实现在线预览的话，可以使用HTML5新增的File API来实现</p>
+	
+	<p>1、创建img标签</p>
+	<p>var img=document.createElement("img")</p>
+	<p>2、获得二进制路径，并赋值给img的src属性</p>
+	<p>img.src=window.URL.createObjectURL(file.files[0])</p>
+	<p>用完之后再清除路径</p>
+	<p>window.URL.revokeObjectURL(this.src)</p>
+	<br>
+	<input type="file" id="file" name="img" />
+	<script>
+		//$('#file').change(function () {
+    		//$('<img src="' + $(this).val() + '" />').insertAfter(this);
+		//});
+
+		var file=document.getElementById("file")
+
+        file.onchange=function(){
+            var img=document.createElement("img")
+            img.src=window.URL.createObjectURL(file.files[0])
+            img.onload=function(){
+            	//this指向选中的图片。
+                window.URL.revokeObjectURL(this.src)
+            }
+            document.body.appendChild(img)
+        }
+	</script>
+</body>
+</html>
