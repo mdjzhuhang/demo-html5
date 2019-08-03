@@ -1,0 +1,58 @@
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+.student {
+  margin: 1.2rem 0 2rem; }
+
+.student .details {
+  border-bottom: 1px solid #E6E6E6; }
+
+.student,
+.staff {
+  padding-left: 2.1rem; }
+  .student .title,
+  .staff .title {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding-bottom: 1.4rem; }
+  .student .mark,
+  .staff .mark {
+    float: left; }
+    .student .mark dl,
+    .staff .mark dl {
+      padding-top: 5px;
+      height: 5rem; }
+      .student .mark dl dt,
+      .staff .mark dl dt {
+        height: 1.25rem;
+        width: 1.25rem;
+        float: left;
+        margin-right: 2rem; }
+      .student .mark dl dd,
+      .staff .mark dl dd {
+        float: left;
+        width: 16rem; }
+        .student .mark dl dd p,
+        .staff .mark dl dd p {
+          font-size: 1.2rem;
+          line-height: 1.5rem;
+          color: #030303; }
+        .student .mark dl dd span,
+        .staff .mark dl dd span {
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+          display: block;
+          color: #808080; }
+    .student .mark .blue dt,
+    .staff .mark .blue dt {
+      background-color: #00AEE0; }
+    .student .mark .yellow dt,
+    .staff .mark .yellow dt {
+      background-color: #F0D200; }
+
+/*# sourceMappingURL=piechart.css.map */

@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+$border-width: 0.75rem;
+$circle-diameter : 7rem;
+$yellow: #F0D200;
+$blue: #00AEE0;
+$red: #FF0075;
+$green: green;
+
+@mixin rotate($deg) {
+	transform: rotate($deg);
+}
+
+.rect-auto {
+	clip: rect(auto, auto, auto, auto);
+}
+
+.pie {
+	position: absolute;
+	width: $circle-diameter;
+	height: $circle-diameter;
+	clip: rect(0, 0.5*$circle-diameter, $circle-diameter, 0);
+	border-radius: 50%;
+	@include rotate(0deg);
+}
+
+.pie-fill {
+	@include rotate(180deg);
+}
+
+// main
+.c100 {
+	float: left;
+	margin-right: 2.4rem;
+	margin-bottom: 2.5rem;
+	position: relative;
+	width: $circle-diameter;
+	height: $circle-diameter;
+	border-radius: 50%;
+	border: $border-width solid $red;
+
+	.slice1, .slice2, .slice3 {
+		position: absolute;
+		width: $circle-diameter;
+		height: $circle-diameter;
+		top: -1*$border-width;
+		left: -1*$border-width;
+		clip: rect(0, $circle-diameter, $circle-diameter, 0.5*$circle-diameter);
+	}
+
+	.bar1,
+	.bar2,
+	.bar3 {
+		@extend .pie;
+	}
+
+	.bar1 {
+		border: $border-width solid $blue;
+	}
+
+	.bar2 {
+		border: $border-width solid $yellow;
+	}
+	.bar3 {
+		border: $border-width solid $green;
+	}
+	
+	@for $j from 51 through 100 {
+
+		&.p1-#{$j} .slice1 {
+			@extend .rect-auto;
+		}
+
+		&.p1-#{$j} .bar1:after {
+			@extend .pie-fill;
+		}
+
+		&.p1-#{$j} .fill1 {
+			border: $border-width solid $blue;
+			@extend .pie;
+			@extend .pie-fill;
+		}
+	}
+	@for $k from 51 through 100 {
+
+		&.p2-#{$k} .slice2 {
+			@extend .rect-auto;
+		}
+
+		&.p2-#{$k} .bar2:after {
+			@extend .pie-fill;
+		}
+
+		&.p2-#{$k} .fill2 {
+			border: $border-width solid $yellow;
+			@extend .pie;
+			@extend .pie-fill;
+		}
+	}
+
+	@for $m from 51 through 100 {
+
+		&.p3-#{$m} .slice3 {
+			@extend .rect-auto;
+		}
+
+		&.p3-#{$m} .bar3:after {
+			@extend .pie-fill;
+		}
+
+		&.p3-#{$m} .fill3 {
+			border: $border-width solid $green;
+			@extend .pie;
+			@extend .pie-fill;
+		}
+	}
+	
+	@for $j from 1 through 100 {
+		&.p1-#{$j} .bar1 {
+			@include rotate((360/100*$j) + deg);
+		}
+	}
+
+	@for $k from 1 through 100 {
+		&.p2-#{$k} .bar2 {
+			@include rotate((360/100*($k)) + deg);
+		}
+	}
+
+	@for $m from 1 through 100 {
+		&.p3-#{$m} .bar3 {
+			@include rotate((360/100*($m)) + deg);
+		}
+	}
+}

@@ -1,0 +1,68 @@
+.clearfix:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.student{
+	margin: 1.2rem 0 2rem;
+}
+.student .details {
+	border-bottom: 1px solid #E6E6E6;
+}
+.student,
+.staff {
+	padding-left: 2.1rem;
+
+	.title {
+		font-size: 1.25rem;
+		line-height: 1.25rem;
+		padding-bottom: 1.4rem;
+	}
+
+	.mark {
+		float: left;
+
+		dl {
+			padding-top: 5px;
+			height: 5rem;
+			dt {
+				height: 1.25rem;
+				width: 1.25rem;
+				float: left;
+				margin-right: 2rem;
+			}
+
+			dd {
+				float: left;
+				width: 16rem;
+				p {
+					font-size: 1.2rem;
+					line-height: 1.5rem;
+					color: #030303;
+				}
+
+
+				span {
+					font-size: 0.9rem;
+					line-height: 1.2rem;
+					display: block;
+					color: #808080;
+				}
+			}
+		}
+
+		.blue dt {
+			background-color: #00AEE0;
+		}
+
+		.yellow dt {
+			background-color: #F0D200;
+		}
+	}
+
+}

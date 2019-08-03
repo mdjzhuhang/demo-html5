@@ -1,0 +1,946 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
+.rect-auto, .c100.p1-51 .slice1, .c100.p1-52 .slice1, .c100.p1-53 .slice1, .c100.p1-54 .slice1, .c100.p1-55 .slice1, .c100.p1-56 .slice1, .c100.p1-57 .slice1, .c100.p1-58 .slice1, .c100.p1-59 .slice1, .c100.p1-60 .slice1, .c100.p1-61 .slice1, .c100.p1-62 .slice1, .c100.p1-63 .slice1, .c100.p1-64 .slice1, .c100.p1-65 .slice1, .c100.p1-66 .slice1, .c100.p1-67 .slice1, .c100.p1-68 .slice1, .c100.p1-69 .slice1, .c100.p1-70 .slice1, .c100.p1-71 .slice1, .c100.p1-72 .slice1, .c100.p1-73 .slice1, .c100.p1-74 .slice1, .c100.p1-75 .slice1, .c100.p1-76 .slice1, .c100.p1-77 .slice1, .c100.p1-78 .slice1, .c100.p1-79 .slice1, .c100.p1-80 .slice1, .c100.p1-81 .slice1, .c100.p1-82 .slice1, .c100.p1-83 .slice1, .c100.p1-84 .slice1, .c100.p1-85 .slice1, .c100.p1-86 .slice1, .c100.p1-87 .slice1, .c100.p1-88 .slice1, .c100.p1-89 .slice1, .c100.p1-90 .slice1, .c100.p1-91 .slice1, .c100.p1-92 .slice1, .c100.p1-93 .slice1, .c100.p1-94 .slice1, .c100.p1-95 .slice1, .c100.p1-96 .slice1, .c100.p1-97 .slice1, .c100.p1-98 .slice1, .c100.p1-99 .slice1, .c100.p1-100 .slice1, .c100.p2-51 .slice2, .c100.p2-52 .slice2, .c100.p2-53 .slice2, .c100.p2-54 .slice2, .c100.p2-55 .slice2, .c100.p2-56 .slice2, .c100.p2-57 .slice2, .c100.p2-58 .slice2, .c100.p2-59 .slice2, .c100.p2-60 .slice2, .c100.p2-61 .slice2, .c100.p2-62 .slice2, .c100.p2-63 .slice2, .c100.p2-64 .slice2, .c100.p2-65 .slice2, .c100.p2-66 .slice2, .c100.p2-67 .slice2, .c100.p2-68 .slice2, .c100.p2-69 .slice2, .c100.p2-70 .slice2, .c100.p2-71 .slice2, .c100.p2-72 .slice2, .c100.p2-73 .slice2, .c100.p2-74 .slice2, .c100.p2-75 .slice2, .c100.p2-76 .slice2, .c100.p2-77 .slice2, .c100.p2-78 .slice2, .c100.p2-79 .slice2, .c100.p2-80 .slice2, .c100.p2-81 .slice2, .c100.p2-82 .slice2, .c100.p2-83 .slice2, .c100.p2-84 .slice2, .c100.p2-85 .slice2, .c100.p2-86 .slice2, .c100.p2-87 .slice2, .c100.p2-88 .slice2, .c100.p2-89 .slice2, .c100.p2-90 .slice2, .c100.p2-91 .slice2, .c100.p2-92 .slice2, .c100.p2-93 .slice2, .c100.p2-94 .slice2, .c100.p2-95 .slice2, .c100.p2-96 .slice2, .c100.p2-97 .slice2, .c100.p2-98 .slice2, .c100.p2-99 .slice2, .c100.p2-100 .slice2, .c100.p3-51 .slice3, .c100.p3-52 .slice3, .c100.p3-53 .slice3, .c100.p3-54 .slice3, .c100.p3-55 .slice3, .c100.p3-56 .slice3, .c100.p3-57 .slice3, .c100.p3-58 .slice3, .c100.p3-59 .slice3, .c100.p3-60 .slice3, .c100.p3-61 .slice3, .c100.p3-62 .slice3, .c100.p3-63 .slice3, .c100.p3-64 .slice3, .c100.p3-65 .slice3, .c100.p3-66 .slice3, .c100.p3-67 .slice3, .c100.p3-68 .slice3, .c100.p3-69 .slice3, .c100.p3-70 .slice3, .c100.p3-71 .slice3, .c100.p3-72 .slice3, .c100.p3-73 .slice3, .c100.p3-74 .slice3, .c100.p3-75 .slice3, .c100.p3-76 .slice3, .c100.p3-77 .slice3, .c100.p3-78 .slice3, .c100.p3-79 .slice3, .c100.p3-80 .slice3, .c100.p3-81 .slice3, .c100.p3-82 .slice3, .c100.p3-83 .slice3, .c100.p3-84 .slice3, .c100.p3-85 .slice3, .c100.p3-86 .slice3, .c100.p3-87 .slice3, .c100.p3-88 .slice3, .c100.p3-89 .slice3, .c100.p3-90 .slice3, .c100.p3-91 .slice3, .c100.p3-92 .slice3, .c100.p3-93 .slice3, .c100.p3-94 .slice3, .c100.p3-95 .slice3, .c100.p3-96 .slice3, .c100.p3-97 .slice3, .c100.p3-98 .slice3, .c100.p3-99 .slice3, .c100.p3-100 .slice3 {
+  clip: rect(auto, auto, auto, auto); }
+
+.pie, .c100 .bar1,
+.c100 .bar2,
+.c100 .bar3, .c100.p1-51 .fill1, .c100.p1-52 .fill1, .c100.p1-53 .fill1, .c100.p1-54 .fill1, .c100.p1-55 .fill1, .c100.p1-56 .fill1, .c100.p1-57 .fill1, .c100.p1-58 .fill1, .c100.p1-59 .fill1, .c100.p1-60 .fill1, .c100.p1-61 .fill1, .c100.p1-62 .fill1, .c100.p1-63 .fill1, .c100.p1-64 .fill1, .c100.p1-65 .fill1, .c100.p1-66 .fill1, .c100.p1-67 .fill1, .c100.p1-68 .fill1, .c100.p1-69 .fill1, .c100.p1-70 .fill1, .c100.p1-71 .fill1, .c100.p1-72 .fill1, .c100.p1-73 .fill1, .c100.p1-74 .fill1, .c100.p1-75 .fill1, .c100.p1-76 .fill1, .c100.p1-77 .fill1, .c100.p1-78 .fill1, .c100.p1-79 .fill1, .c100.p1-80 .fill1, .c100.p1-81 .fill1, .c100.p1-82 .fill1, .c100.p1-83 .fill1, .c100.p1-84 .fill1, .c100.p1-85 .fill1, .c100.p1-86 .fill1, .c100.p1-87 .fill1, .c100.p1-88 .fill1, .c100.p1-89 .fill1, .c100.p1-90 .fill1, .c100.p1-91 .fill1, .c100.p1-92 .fill1, .c100.p1-93 .fill1, .c100.p1-94 .fill1, .c100.p1-95 .fill1, .c100.p1-96 .fill1, .c100.p1-97 .fill1, .c100.p1-98 .fill1, .c100.p1-99 .fill1, .c100.p1-100 .fill1, .c100.p2-51 .fill2, .c100.p2-52 .fill2, .c100.p2-53 .fill2, .c100.p2-54 .fill2, .c100.p2-55 .fill2, .c100.p2-56 .fill2, .c100.p2-57 .fill2, .c100.p2-58 .fill2, .c100.p2-59 .fill2, .c100.p2-60 .fill2, .c100.p2-61 .fill2, .c100.p2-62 .fill2, .c100.p2-63 .fill2, .c100.p2-64 .fill2, .c100.p2-65 .fill2, .c100.p2-66 .fill2, .c100.p2-67 .fill2, .c100.p2-68 .fill2, .c100.p2-69 .fill2, .c100.p2-70 .fill2, .c100.p2-71 .fill2, .c100.p2-72 .fill2, .c100.p2-73 .fill2, .c100.p2-74 .fill2, .c100.p2-75 .fill2, .c100.p2-76 .fill2, .c100.p2-77 .fill2, .c100.p2-78 .fill2, .c100.p2-79 .fill2, .c100.p2-80 .fill2, .c100.p2-81 .fill2, .c100.p2-82 .fill2, .c100.p2-83 .fill2, .c100.p2-84 .fill2, .c100.p2-85 .fill2, .c100.p2-86 .fill2, .c100.p2-87 .fill2, .c100.p2-88 .fill2, .c100.p2-89 .fill2, .c100.p2-90 .fill2, .c100.p2-91 .fill2, .c100.p2-92 .fill2, .c100.p2-93 .fill2, .c100.p2-94 .fill2, .c100.p2-95 .fill2, .c100.p2-96 .fill2, .c100.p2-97 .fill2, .c100.p2-98 .fill2, .c100.p2-99 .fill2, .c100.p2-100 .fill2, .c100.p3-51 .fill3, .c100.p3-52 .fill3, .c100.p3-53 .fill3, .c100.p3-54 .fill3, .c100.p3-55 .fill3, .c100.p3-56 .fill3, .c100.p3-57 .fill3, .c100.p3-58 .fill3, .c100.p3-59 .fill3, .c100.p3-60 .fill3, .c100.p3-61 .fill3, .c100.p3-62 .fill3, .c100.p3-63 .fill3, .c100.p3-64 .fill3, .c100.p3-65 .fill3, .c100.p3-66 .fill3, .c100.p3-67 .fill3, .c100.p3-68 .fill3, .c100.p3-69 .fill3, .c100.p3-70 .fill3, .c100.p3-71 .fill3, .c100.p3-72 .fill3, .c100.p3-73 .fill3, .c100.p3-74 .fill3, .c100.p3-75 .fill3, .c100.p3-76 .fill3, .c100.p3-77 .fill3, .c100.p3-78 .fill3, .c100.p3-79 .fill3, .c100.p3-80 .fill3, .c100.p3-81 .fill3, .c100.p3-82 .fill3, .c100.p3-83 .fill3, .c100.p3-84 .fill3, .c100.p3-85 .fill3, .c100.p3-86 .fill3, .c100.p3-87 .fill3, .c100.p3-88 .fill3, .c100.p3-89 .fill3, .c100.p3-90 .fill3, .c100.p3-91 .fill3, .c100.p3-92 .fill3, .c100.p3-93 .fill3, .c100.p3-94 .fill3, .c100.p3-95 .fill3, .c100.p3-96 .fill3, .c100.p3-97 .fill3, .c100.p3-98 .fill3, .c100.p3-99 .fill3, .c100.p3-100 .fill3 {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  clip: rect(0, 3.5rem, 7rem, 0);
+  border-radius: 50%;
+  transform: rotate(0deg); }
+
+.pie-fill, .c100.p1-51 .bar1:after, .c100.p1-51 .fill1, .c100.p1-52 .bar1:after, .c100.p1-52 .fill1, .c100.p1-53 .bar1:after, .c100.p1-53 .fill1, .c100.p1-54 .bar1:after, .c100.p1-54 .fill1, .c100.p1-55 .bar1:after, .c100.p1-55 .fill1, .c100.p1-56 .bar1:after, .c100.p1-56 .fill1, .c100.p1-57 .bar1:after, .c100.p1-57 .fill1, .c100.p1-58 .bar1:after, .c100.p1-58 .fill1, .c100.p1-59 .bar1:after, .c100.p1-59 .fill1, .c100.p1-60 .bar1:after, .c100.p1-60 .fill1, .c100.p1-61 .bar1:after, .c100.p1-61 .fill1, .c100.p1-62 .bar1:after, .c100.p1-62 .fill1, .c100.p1-63 .bar1:after, .c100.p1-63 .fill1, .c100.p1-64 .bar1:after, .c100.p1-64 .fill1, .c100.p1-65 .bar1:after, .c100.p1-65 .fill1, .c100.p1-66 .bar1:after, .c100.p1-66 .fill1, .c100.p1-67 .bar1:after, .c100.p1-67 .fill1, .c100.p1-68 .bar1:after, .c100.p1-68 .fill1, .c100.p1-69 .bar1:after, .c100.p1-69 .fill1, .c100.p1-70 .bar1:after, .c100.p1-70 .fill1, .c100.p1-71 .bar1:after, .c100.p1-71 .fill1, .c100.p1-72 .bar1:after, .c100.p1-72 .fill1, .c100.p1-73 .bar1:after, .c100.p1-73 .fill1, .c100.p1-74 .bar1:after, .c100.p1-74 .fill1, .c100.p1-75 .bar1:after, .c100.p1-75 .fill1, .c100.p1-76 .bar1:after, .c100.p1-76 .fill1, .c100.p1-77 .bar1:after, .c100.p1-77 .fill1, .c100.p1-78 .bar1:after, .c100.p1-78 .fill1, .c100.p1-79 .bar1:after, .c100.p1-79 .fill1, .c100.p1-80 .bar1:after, .c100.p1-80 .fill1, .c100.p1-81 .bar1:after, .c100.p1-81 .fill1, .c100.p1-82 .bar1:after, .c100.p1-82 .fill1, .c100.p1-83 .bar1:after, .c100.p1-83 .fill1, .c100.p1-84 .bar1:after, .c100.p1-84 .fill1, .c100.p1-85 .bar1:after, .c100.p1-85 .fill1, .c100.p1-86 .bar1:after, .c100.p1-86 .fill1, .c100.p1-87 .bar1:after, .c100.p1-87 .fill1, .c100.p1-88 .bar1:after, .c100.p1-88 .fill1, .c100.p1-89 .bar1:after, .c100.p1-89 .fill1, .c100.p1-90 .bar1:after, .c100.p1-90 .fill1, .c100.p1-91 .bar1:after, .c100.p1-91 .fill1, .c100.p1-92 .bar1:after, .c100.p1-92 .fill1, .c100.p1-93 .bar1:after, .c100.p1-93 .fill1, .c100.p1-94 .bar1:after, .c100.p1-94 .fill1, .c100.p1-95 .bar1:after, .c100.p1-95 .fill1, .c100.p1-96 .bar1:after, .c100.p1-96 .fill1, .c100.p1-97 .bar1:after, .c100.p1-97 .fill1, .c100.p1-98 .bar1:after, .c100.p1-98 .fill1, .c100.p1-99 .bar1:after, .c100.p1-99 .fill1, .c100.p1-100 .bar1:after, .c100.p1-100 .fill1, .c100.p2-51 .bar2:after, .c100.p2-51 .fill2, .c100.p2-52 .bar2:after, .c100.p2-52 .fill2, .c100.p2-53 .bar2:after, .c100.p2-53 .fill2, .c100.p2-54 .bar2:after, .c100.p2-54 .fill2, .c100.p2-55 .bar2:after, .c100.p2-55 .fill2, .c100.p2-56 .bar2:after, .c100.p2-56 .fill2, .c100.p2-57 .bar2:after, .c100.p2-57 .fill2, .c100.p2-58 .bar2:after, .c100.p2-58 .fill2, .c100.p2-59 .bar2:after, .c100.p2-59 .fill2, .c100.p2-60 .bar2:after, .c100.p2-60 .fill2, .c100.p2-61 .bar2:after, .c100.p2-61 .fill2, .c100.p2-62 .bar2:after, .c100.p2-62 .fill2, .c100.p2-63 .bar2:after, .c100.p2-63 .fill2, .c100.p2-64 .bar2:after, .c100.p2-64 .fill2, .c100.p2-65 .bar2:after, .c100.p2-65 .fill2, .c100.p2-66 .bar2:after, .c100.p2-66 .fill2, .c100.p2-67 .bar2:after, .c100.p2-67 .fill2, .c100.p2-68 .bar2:after, .c100.p2-68 .fill2, .c100.p2-69 .bar2:after, .c100.p2-69 .fill2, .c100.p2-70 .bar2:after, .c100.p2-70 .fill2, .c100.p2-71 .bar2:after, .c100.p2-71 .fill2, .c100.p2-72 .bar2:after, .c100.p2-72 .fill2, .c100.p2-73 .bar2:after, .c100.p2-73 .fill2, .c100.p2-74 .bar2:after, .c100.p2-74 .fill2, .c100.p2-75 .bar2:after, .c100.p2-75 .fill2, .c100.p2-76 .bar2:after, .c100.p2-76 .fill2, .c100.p2-77 .bar2:after, .c100.p2-77 .fill2, .c100.p2-78 .bar2:after, .c100.p2-78 .fill2, .c100.p2-79 .bar2:after, .c100.p2-79 .fill2, .c100.p2-80 .bar2:after, .c100.p2-80 .fill2, .c100.p2-81 .bar2:after, .c100.p2-81 .fill2, .c100.p2-82 .bar2:after, .c100.p2-82 .fill2, .c100.p2-83 .bar2:after, .c100.p2-83 .fill2, .c100.p2-84 .bar2:after, .c100.p2-84 .fill2, .c100.p2-85 .bar2:after, .c100.p2-85 .fill2, .c100.p2-86 .bar2:after, .c100.p2-86 .fill2, .c100.p2-87 .bar2:after, .c100.p2-87 .fill2, .c100.p2-88 .bar2:after, .c100.p2-88 .fill2, .c100.p2-89 .bar2:after, .c100.p2-89 .fill2, .c100.p2-90 .bar2:after, .c100.p2-90 .fill2, .c100.p2-91 .bar2:after, .c100.p2-91 .fill2, .c100.p2-92 .bar2:after, .c100.p2-92 .fill2, .c100.p2-93 .bar2:after, .c100.p2-93 .fill2, .c100.p2-94 .bar2:after, .c100.p2-94 .fill2, .c100.p2-95 .bar2:after, .c100.p2-95 .fill2, .c100.p2-96 .bar2:after, .c100.p2-96 .fill2, .c100.p2-97 .bar2:after, .c100.p2-97 .fill2, .c100.p2-98 .bar2:after, .c100.p2-98 .fill2, .c100.p2-99 .bar2:after, .c100.p2-99 .fill2, .c100.p2-100 .bar2:after, .c100.p2-100 .fill2, .c100.p3-51 .bar3:after, .c100.p3-51 .fill3, .c100.p3-52 .bar3:after, .c100.p3-52 .fill3, .c100.p3-53 .bar3:after, .c100.p3-53 .fill3, .c100.p3-54 .bar3:after, .c100.p3-54 .fill3, .c100.p3-55 .bar3:after, .c100.p3-55 .fill3, .c100.p3-56 .bar3:after, .c100.p3-56 .fill3, .c100.p3-57 .bar3:after, .c100.p3-57 .fill3, .c100.p3-58 .bar3:after, .c100.p3-58 .fill3, .c100.p3-59 .bar3:after, .c100.p3-59 .fill3, .c100.p3-60 .bar3:after, .c100.p3-60 .fill3, .c100.p3-61 .bar3:after, .c100.p3-61 .fill3, .c100.p3-62 .bar3:after, .c100.p3-62 .fill3, .c100.p3-63 .bar3:after, .c100.p3-63 .fill3, .c100.p3-64 .bar3:after, .c100.p3-64 .fill3, .c100.p3-65 .bar3:after, .c100.p3-65 .fill3, .c100.p3-66 .bar3:after, .c100.p3-66 .fill3, .c100.p3-67 .bar3:after, .c100.p3-67 .fill3, .c100.p3-68 .bar3:after, .c100.p3-68 .fill3, .c100.p3-69 .bar3:after, .c100.p3-69 .fill3, .c100.p3-70 .bar3:after, .c100.p3-70 .fill3, .c100.p3-71 .bar3:after, .c100.p3-71 .fill3, .c100.p3-72 .bar3:after, .c100.p3-72 .fill3, .c100.p3-73 .bar3:after, .c100.p3-73 .fill3, .c100.p3-74 .bar3:after, .c100.p3-74 .fill3, .c100.p3-75 .bar3:after, .c100.p3-75 .fill3, .c100.p3-76 .bar3:after, .c100.p3-76 .fill3, .c100.p3-77 .bar3:after, .c100.p3-77 .fill3, .c100.p3-78 .bar3:after, .c100.p3-78 .fill3, .c100.p3-79 .bar3:after, .c100.p3-79 .fill3, .c100.p3-80 .bar3:after, .c100.p3-80 .fill3, .c100.p3-81 .bar3:after, .c100.p3-81 .fill3, .c100.p3-82 .bar3:after, .c100.p3-82 .fill3, .c100.p3-83 .bar3:after, .c100.p3-83 .fill3, .c100.p3-84 .bar3:after, .c100.p3-84 .fill3, .c100.p3-85 .bar3:after, .c100.p3-85 .fill3, .c100.p3-86 .bar3:after, .c100.p3-86 .fill3, .c100.p3-87 .bar3:after, .c100.p3-87 .fill3, .c100.p3-88 .bar3:after, .c100.p3-88 .fill3, .c100.p3-89 .bar3:after, .c100.p3-89 .fill3, .c100.p3-90 .bar3:after, .c100.p3-90 .fill3, .c100.p3-91 .bar3:after, .c100.p3-91 .fill3, .c100.p3-92 .bar3:after, .c100.p3-92 .fill3, .c100.p3-93 .bar3:after, .c100.p3-93 .fill3, .c100.p3-94 .bar3:after, .c100.p3-94 .fill3, .c100.p3-95 .bar3:after, .c100.p3-95 .fill3, .c100.p3-96 .bar3:after, .c100.p3-96 .fill3, .c100.p3-97 .bar3:after, .c100.p3-97 .fill3, .c100.p3-98 .bar3:after, .c100.p3-98 .fill3, .c100.p3-99 .bar3:after, .c100.p3-99 .fill3, .c100.p3-100 .bar3:after, .c100.p3-100 .fill3 {
+  transform: rotate(180deg); }
+
+.c100 {
+  float: left;
+  margin-right: 2.4rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 0.75rem solid #FF0075; }
+  .c100 .slice1, .c100 .slice2, .c100 .slice3 {
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    top: -0.75rem;
+    left: -0.75rem;
+    clip: rect(0, 7rem, 7rem, 3.5rem); }
+  .c100 .bar1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100 .bar2 {
+    border: 0.75rem solid #F0D200; }
+  .c100 .bar3 {
+    border: 0.75rem solid green; }
+  .c100.p1-51 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-52 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-53 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-54 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-55 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-56 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-57 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-58 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-59 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-60 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-61 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-62 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-63 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-64 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-65 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-66 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-67 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-68 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-69 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-70 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-71 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-72 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-73 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-74 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-75 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-76 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-77 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-78 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-79 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-80 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-81 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-82 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-83 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-84 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-85 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-86 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-87 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-88 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-89 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-90 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-91 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-92 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-93 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-94 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-95 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-96 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-97 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-98 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-99 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p1-100 .fill1 {
+    border: 0.75rem solid #00AEE0; }
+  .c100.p2-51 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-52 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-53 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-54 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-55 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-56 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-57 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-58 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-59 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-60 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-61 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-62 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-63 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-64 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-65 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-66 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-67 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-68 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-69 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-70 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-71 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-72 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-73 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-74 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-75 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-76 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-77 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-78 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-79 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-80 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-81 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-82 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-83 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-84 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-85 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-86 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-87 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-88 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-89 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-90 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-91 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-92 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-93 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-94 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-95 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-96 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-97 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-98 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-99 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p2-100 .fill2 {
+    border: 0.75rem solid #F0D200; }
+  .c100.p3-51 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-52 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-53 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-54 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-55 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-56 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-57 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-58 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-59 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-60 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-61 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-62 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-63 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-64 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-65 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-66 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-67 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-68 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-69 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-70 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-71 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-72 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-73 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-74 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-75 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-76 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-77 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-78 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-79 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-80 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-81 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-82 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-83 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-84 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-85 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-86 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-87 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-88 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-89 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-90 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-91 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-92 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-93 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-94 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-95 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-96 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-97 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-98 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-99 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p3-100 .fill3 {
+    border: 0.75rem solid green; }
+  .c100.p1-1 .bar1 {
+    transform: rotate(3.6deg); }
+  .c100.p1-2 .bar1 {
+    transform: rotate(7.2deg); }
+  .c100.p1-3 .bar1 {
+    transform: rotate(10.8deg); }
+  .c100.p1-4 .bar1 {
+    transform: rotate(14.4deg); }
+  .c100.p1-5 .bar1 {
+    transform: rotate(18deg); }
+  .c100.p1-6 .bar1 {
+    transform: rotate(21.6deg); }
+  .c100.p1-7 .bar1 {
+    transform: rotate(25.2deg); }
+  .c100.p1-8 .bar1 {
+    transform: rotate(28.8deg); }
+  .c100.p1-9 .bar1 {
+    transform: rotate(32.4deg); }
+  .c100.p1-10 .bar1 {
+    transform: rotate(36deg); }
+  .c100.p1-11 .bar1 {
+    transform: rotate(39.6deg); }
+  .c100.p1-12 .bar1 {
+    transform: rotate(43.2deg); }
+  .c100.p1-13 .bar1 {
+    transform: rotate(46.8deg); }
+  .c100.p1-14 .bar1 {
+    transform: rotate(50.4deg); }
+  .c100.p1-15 .bar1 {
+    transform: rotate(54deg); }
+  .c100.p1-16 .bar1 {
+    transform: rotate(57.6deg); }
+  .c100.p1-17 .bar1 {
+    transform: rotate(61.2deg); }
+  .c100.p1-18 .bar1 {
+    transform: rotate(64.8deg); }
+  .c100.p1-19 .bar1 {
+    transform: rotate(68.4deg); }
+  .c100.p1-20 .bar1 {
+    transform: rotate(72deg); }
+  .c100.p1-21 .bar1 {
+    transform: rotate(75.6deg); }
+  .c100.p1-22 .bar1 {
+    transform: rotate(79.2deg); }
+  .c100.p1-23 .bar1 {
+    transform: rotate(82.8deg); }
+  .c100.p1-24 .bar1 {
+    transform: rotate(86.4deg); }
+  .c100.p1-25 .bar1 {
+    transform: rotate(90deg); }
+  .c100.p1-26 .bar1 {
+    transform: rotate(93.6deg); }
+  .c100.p1-27 .bar1 {
+    transform: rotate(97.2deg); }
+  .c100.p1-28 .bar1 {
+    transform: rotate(100.8deg); }
+  .c100.p1-29 .bar1 {
+    transform: rotate(104.4deg); }
+  .c100.p1-30 .bar1 {
+    transform: rotate(108deg); }
+  .c100.p1-31 .bar1 {
+    transform: rotate(111.6deg); }
+  .c100.p1-32 .bar1 {
+    transform: rotate(115.2deg); }
+  .c100.p1-33 .bar1 {
+    transform: rotate(118.8deg); }
+  .c100.p1-34 .bar1 {
+    transform: rotate(122.4deg); }
+  .c100.p1-35 .bar1 {
+    transform: rotate(126deg); }
+  .c100.p1-36 .bar1 {
+    transform: rotate(129.6deg); }
+  .c100.p1-37 .bar1 {
+    transform: rotate(133.2deg); }
+  .c100.p1-38 .bar1 {
+    transform: rotate(136.8deg); }
+  .c100.p1-39 .bar1 {
+    transform: rotate(140.4deg); }
+  .c100.p1-40 .bar1 {
+    transform: rotate(144deg); }
+  .c100.p1-41 .bar1 {
+    transform: rotate(147.6deg); }
+  .c100.p1-42 .bar1 {
+    transform: rotate(151.2deg); }
+  .c100.p1-43 .bar1 {
+    transform: rotate(154.8deg); }
+  .c100.p1-44 .bar1 {
+    transform: rotate(158.4deg); }
+  .c100.p1-45 .bar1 {
+    transform: rotate(162deg); }
+  .c100.p1-46 .bar1 {
+    transform: rotate(165.6deg); }
+  .c100.p1-47 .bar1 {
+    transform: rotate(169.2deg); }
+  .c100.p1-48 .bar1 {
+    transform: rotate(172.8deg); }
+  .c100.p1-49 .bar1 {
+    transform: rotate(176.4deg); }
+  .c100.p1-50 .bar1 {
+    transform: rotate(180deg); }
+  .c100.p1-51 .bar1 {
+    transform: rotate(183.6deg); }
+  .c100.p1-52 .bar1 {
+    transform: rotate(187.2deg); }
+  .c100.p1-53 .bar1 {
+    transform: rotate(190.8deg); }
+  .c100.p1-54 .bar1 {
+    transform: rotate(194.4deg); }
+  .c100.p1-55 .bar1 {
+    transform: rotate(198deg); }
+  .c100.p1-56 .bar1 {
+    transform: rotate(201.6deg); }
+  .c100.p1-57 .bar1 {
+    transform: rotate(205.2deg); }
+  .c100.p1-58 .bar1 {
+    transform: rotate(208.8deg); }
+  .c100.p1-59 .bar1 {
+    transform: rotate(212.4deg); }
+  .c100.p1-60 .bar1 {
+    transform: rotate(216deg); }
+  .c100.p1-61 .bar1 {
+    transform: rotate(219.6deg); }
+  .c100.p1-62 .bar1 {
+    transform: rotate(223.2deg); }
+  .c100.p1-63 .bar1 {
+    transform: rotate(226.8deg); }
+  .c100.p1-64 .bar1 {
+    transform: rotate(230.4deg); }
+  .c100.p1-65 .bar1 {
+    transform: rotate(234deg); }
+  .c100.p1-66 .bar1 {
+    transform: rotate(237.6deg); }
+  .c100.p1-67 .bar1 {
+    transform: rotate(241.2deg); }
+  .c100.p1-68 .bar1 {
+    transform: rotate(244.8deg); }
+  .c100.p1-69 .bar1 {
+    transform: rotate(248.4deg); }
+  .c100.p1-70 .bar1 {
+    transform: rotate(252deg); }
+  .c100.p1-71 .bar1 {
+    transform: rotate(255.6deg); }
+  .c100.p1-72 .bar1 {
+    transform: rotate(259.2deg); }
+  .c100.p1-73 .bar1 {
+    transform: rotate(262.8deg); }
+  .c100.p1-74 .bar1 {
+    transform: rotate(266.4deg); }
+  .c100.p1-75 .bar1 {
+    transform: rotate(270deg); }
+  .c100.p1-76 .bar1 {
+    transform: rotate(273.6deg); }
+  .c100.p1-77 .bar1 {
+    transform: rotate(277.2deg); }
+  .c100.p1-78 .bar1 {
+    transform: rotate(280.8deg); }
+  .c100.p1-79 .bar1 {
+    transform: rotate(284.4deg); }
+  .c100.p1-80 .bar1 {
+    transform: rotate(288deg); }
+  .c100.p1-81 .bar1 {
+    transform: rotate(291.6deg); }
+  .c100.p1-82 .bar1 {
+    transform: rotate(295.2deg); }
+  .c100.p1-83 .bar1 {
+    transform: rotate(298.8deg); }
+  .c100.p1-84 .bar1 {
+    transform: rotate(302.4deg); }
+  .c100.p1-85 .bar1 {
+    transform: rotate(306deg); }
+  .c100.p1-86 .bar1 {
+    transform: rotate(309.6deg); }
+  .c100.p1-87 .bar1 {
+    transform: rotate(313.2deg); }
+  .c100.p1-88 .bar1 {
+    transform: rotate(316.8deg); }
+  .c100.p1-89 .bar1 {
+    transform: rotate(320.4deg); }
+  .c100.p1-90 .bar1 {
+    transform: rotate(324deg); }
+  .c100.p1-91 .bar1 {
+    transform: rotate(327.6deg); }
+  .c100.p1-92 .bar1 {
+    transform: rotate(331.2deg); }
+  .c100.p1-93 .bar1 {
+    transform: rotate(334.8deg); }
+  .c100.p1-94 .bar1 {
+    transform: rotate(338.4deg); }
+  .c100.p1-95 .bar1 {
+    transform: rotate(342deg); }
+  .c100.p1-96 .bar1 {
+    transform: rotate(345.6deg); }
+  .c100.p1-97 .bar1 {
+    transform: rotate(349.2deg); }
+  .c100.p1-98 .bar1 {
+    transform: rotate(352.8deg); }
+  .c100.p1-99 .bar1 {
+    transform: rotate(356.4deg); }
+  .c100.p1-100 .bar1 {
+    transform: rotate(360deg); }
+  .c100.p2-1 .bar2 {
+    transform: rotate(3.6deg); }
+  .c100.p2-2 .bar2 {
+    transform: rotate(7.2deg); }
+  .c100.p2-3 .bar2 {
+    transform: rotate(10.8deg); }
+  .c100.p2-4 .bar2 {
+    transform: rotate(14.4deg); }
+  .c100.p2-5 .bar2 {
+    transform: rotate(18deg); }
+  .c100.p2-6 .bar2 {
+    transform: rotate(21.6deg); }
+  .c100.p2-7 .bar2 {
+    transform: rotate(25.2deg); }
+  .c100.p2-8 .bar2 {
+    transform: rotate(28.8deg); }
+  .c100.p2-9 .bar2 {
+    transform: rotate(32.4deg); }
+  .c100.p2-10 .bar2 {
+    transform: rotate(36deg); }
+  .c100.p2-11 .bar2 {
+    transform: rotate(39.6deg); }
+  .c100.p2-12 .bar2 {
+    transform: rotate(43.2deg); }
+  .c100.p2-13 .bar2 {
+    transform: rotate(46.8deg); }
+  .c100.p2-14 .bar2 {
+    transform: rotate(50.4deg); }
+  .c100.p2-15 .bar2 {
+    transform: rotate(54deg); }
+  .c100.p2-16 .bar2 {
+    transform: rotate(57.6deg); }
+  .c100.p2-17 .bar2 {
+    transform: rotate(61.2deg); }
+  .c100.p2-18 .bar2 {
+    transform: rotate(64.8deg); }
+  .c100.p2-19 .bar2 {
+    transform: rotate(68.4deg); }
+  .c100.p2-20 .bar2 {
+    transform: rotate(72deg); }
+  .c100.p2-21 .bar2 {
+    transform: rotate(75.6deg); }
+  .c100.p2-22 .bar2 {
+    transform: rotate(79.2deg); }
+  .c100.p2-23 .bar2 {
+    transform: rotate(82.8deg); }
+  .c100.p2-24 .bar2 {
+    transform: rotate(86.4deg); }
+  .c100.p2-25 .bar2 {
+    transform: rotate(90deg); }
+  .c100.p2-26 .bar2 {
+    transform: rotate(93.6deg); }
+  .c100.p2-27 .bar2 {
+    transform: rotate(97.2deg); }
+  .c100.p2-28 .bar2 {
+    transform: rotate(100.8deg); }
+  .c100.p2-29 .bar2 {
+    transform: rotate(104.4deg); }
+  .c100.p2-30 .bar2 {
+    transform: rotate(108deg); }
+  .c100.p2-31 .bar2 {
+    transform: rotate(111.6deg); }
+  .c100.p2-32 .bar2 {
+    transform: rotate(115.2deg); }
+  .c100.p2-33 .bar2 {
+    transform: rotate(118.8deg); }
+  .c100.p2-34 .bar2 {
+    transform: rotate(122.4deg); }
+  .c100.p2-35 .bar2 {
+    transform: rotate(126deg); }
+  .c100.p2-36 .bar2 {
+    transform: rotate(129.6deg); }
+  .c100.p2-37 .bar2 {
+    transform: rotate(133.2deg); }
+  .c100.p2-38 .bar2 {
+    transform: rotate(136.8deg); }
+  .c100.p2-39 .bar2 {
+    transform: rotate(140.4deg); }
+  .c100.p2-40 .bar2 {
+    transform: rotate(144deg); }
+  .c100.p2-41 .bar2 {
+    transform: rotate(147.6deg); }
+  .c100.p2-42 .bar2 {
+    transform: rotate(151.2deg); }
+  .c100.p2-43 .bar2 {
+    transform: rotate(154.8deg); }
+  .c100.p2-44 .bar2 {
+    transform: rotate(158.4deg); }
+  .c100.p2-45 .bar2 {
+    transform: rotate(162deg); }
+  .c100.p2-46 .bar2 {
+    transform: rotate(165.6deg); }
+  .c100.p2-47 .bar2 {
+    transform: rotate(169.2deg); }
+  .c100.p2-48 .bar2 {
+    transform: rotate(172.8deg); }
+  .c100.p2-49 .bar2 {
+    transform: rotate(176.4deg); }
+  .c100.p2-50 .bar2 {
+    transform: rotate(180deg); }
+  .c100.p2-51 .bar2 {
+    transform: rotate(183.6deg); }
+  .c100.p2-52 .bar2 {
+    transform: rotate(187.2deg); }
+  .c100.p2-53 .bar2 {
+    transform: rotate(190.8deg); }
+  .c100.p2-54 .bar2 {
+    transform: rotate(194.4deg); }
+  .c100.p2-55 .bar2 {
+    transform: rotate(198deg); }
+  .c100.p2-56 .bar2 {
+    transform: rotate(201.6deg); }
+  .c100.p2-57 .bar2 {
+    transform: rotate(205.2deg); }
+  .c100.p2-58 .bar2 {
+    transform: rotate(208.8deg); }
+  .c100.p2-59 .bar2 {
+    transform: rotate(212.4deg); }
+  .c100.p2-60 .bar2 {
+    transform: rotate(216deg); }
+  .c100.p2-61 .bar2 {
+    transform: rotate(219.6deg); }
+  .c100.p2-62 .bar2 {
+    transform: rotate(223.2deg); }
+  .c100.p2-63 .bar2 {
+    transform: rotate(226.8deg); }
+  .c100.p2-64 .bar2 {
+    transform: rotate(230.4deg); }
+  .c100.p2-65 .bar2 {
+    transform: rotate(234deg); }
+  .c100.p2-66 .bar2 {
+    transform: rotate(237.6deg); }
+  .c100.p2-67 .bar2 {
+    transform: rotate(241.2deg); }
+  .c100.p2-68 .bar2 {
+    transform: rotate(244.8deg); }
+  .c100.p2-69 .bar2 {
+    transform: rotate(248.4deg); }
+  .c100.p2-70 .bar2 {
+    transform: rotate(252deg); }
+  .c100.p2-71 .bar2 {
+    transform: rotate(255.6deg); }
+  .c100.p2-72 .bar2 {
+    transform: rotate(259.2deg); }
+  .c100.p2-73 .bar2 {
+    transform: rotate(262.8deg); }
+  .c100.p2-74 .bar2 {
+    transform: rotate(266.4deg); }
+  .c100.p2-75 .bar2 {
+    transform: rotate(270deg); }
+  .c100.p2-76 .bar2 {
+    transform: rotate(273.6deg); }
+  .c100.p2-77 .bar2 {
+    transform: rotate(277.2deg); }
+  .c100.p2-78 .bar2 {
+    transform: rotate(280.8deg); }
+  .c100.p2-79 .bar2 {
+    transform: rotate(284.4deg); }
+  .c100.p2-80 .bar2 {
+    transform: rotate(288deg); }
+  .c100.p2-81 .bar2 {
+    transform: rotate(291.6deg); }
+  .c100.p2-82 .bar2 {
+    transform: rotate(295.2deg); }
+  .c100.p2-83 .bar2 {
+    transform: rotate(298.8deg); }
+  .c100.p2-84 .bar2 {
+    transform: rotate(302.4deg); }
+  .c100.p2-85 .bar2 {
+    transform: rotate(306deg); }
+  .c100.p2-86 .bar2 {
+    transform: rotate(309.6deg); }
+  .c100.p2-87 .bar2 {
+    transform: rotate(313.2deg); }
+  .c100.p2-88 .bar2 {
+    transform: rotate(316.8deg); }
+  .c100.p2-89 .bar2 {
+    transform: rotate(320.4deg); }
+  .c100.p2-90 .bar2 {
+    transform: rotate(324deg); }
+  .c100.p2-91 .bar2 {
+    transform: rotate(327.6deg); }
+  .c100.p2-92 .bar2 {
+    transform: rotate(331.2deg); }
+  .c100.p2-93 .bar2 {
+    transform: rotate(334.8deg); }
+  .c100.p2-94 .bar2 {
+    transform: rotate(338.4deg); }
+  .c100.p2-95 .bar2 {
+    transform: rotate(342deg); }
+  .c100.p2-96 .bar2 {
+    transform: rotate(345.6deg); }
+  .c100.p2-97 .bar2 {
+    transform: rotate(349.2deg); }
+  .c100.p2-98 .bar2 {
+    transform: rotate(352.8deg); }
+  .c100.p2-99 .bar2 {
+    transform: rotate(356.4deg); }
+  .c100.p2-100 .bar2 {
+    transform: rotate(360deg); }
+  .c100.p3-1 .bar3 {
+    transform: rotate(3.6deg); }
+  .c100.p3-2 .bar3 {
+    transform: rotate(7.2deg); }
+  .c100.p3-3 .bar3 {
+    transform: rotate(10.8deg); }
+  .c100.p3-4 .bar3 {
+    transform: rotate(14.4deg); }
+  .c100.p3-5 .bar3 {
+    transform: rotate(18deg); }
+  .c100.p3-6 .bar3 {
+    transform: rotate(21.6deg); }
+  .c100.p3-7 .bar3 {
+    transform: rotate(25.2deg); }
+  .c100.p3-8 .bar3 {
+    transform: rotate(28.8deg); }
+  .c100.p3-9 .bar3 {
+    transform: rotate(32.4deg); }
+  .c100.p3-10 .bar3 {
+    transform: rotate(36deg); }
+  .c100.p3-11 .bar3 {
+    transform: rotate(39.6deg); }
+  .c100.p3-12 .bar3 {
+    transform: rotate(43.2deg); }
+  .c100.p3-13 .bar3 {
+    transform: rotate(46.8deg); }
+  .c100.p3-14 .bar3 {
+    transform: rotate(50.4deg); }
+  .c100.p3-15 .bar3 {
+    transform: rotate(54deg); }
+  .c100.p3-16 .bar3 {
+    transform: rotate(57.6deg); }
+  .c100.p3-17 .bar3 {
+    transform: rotate(61.2deg); }
+  .c100.p3-18 .bar3 {
+    transform: rotate(64.8deg); }
+  .c100.p3-19 .bar3 {
+    transform: rotate(68.4deg); }
+  .c100.p3-20 .bar3 {
+    transform: rotate(72deg); }
+  .c100.p3-21 .bar3 {
+    transform: rotate(75.6deg); }
+  .c100.p3-22 .bar3 {
+    transform: rotate(79.2deg); }
+  .c100.p3-23 .bar3 {
+    transform: rotate(82.8deg); }
+  .c100.p3-24 .bar3 {
+    transform: rotate(86.4deg); }
+  .c100.p3-25 .bar3 {
+    transform: rotate(90deg); }
+  .c100.p3-26 .bar3 {
+    transform: rotate(93.6deg); }
+  .c100.p3-27 .bar3 {
+    transform: rotate(97.2deg); }
+  .c100.p3-28 .bar3 {
+    transform: rotate(100.8deg); }
+  .c100.p3-29 .bar3 {
+    transform: rotate(104.4deg); }
+  .c100.p3-30 .bar3 {
+    transform: rotate(108deg); }
+  .c100.p3-31 .bar3 {
+    transform: rotate(111.6deg); }
+  .c100.p3-32 .bar3 {
+    transform: rotate(115.2deg); }
+  .c100.p3-33 .bar3 {
+    transform: rotate(118.8deg); }
+  .c100.p3-34 .bar3 {
+    transform: rotate(122.4deg); }
+  .c100.p3-35 .bar3 {
+    transform: rotate(126deg); }
+  .c100.p3-36 .bar3 {
+    transform: rotate(129.6deg); }
+  .c100.p3-37 .bar3 {
+    transform: rotate(133.2deg); }
+  .c100.p3-38 .bar3 {
+    transform: rotate(136.8deg); }
+  .c100.p3-39 .bar3 {
+    transform: rotate(140.4deg); }
+  .c100.p3-40 .bar3 {
+    transform: rotate(144deg); }
+  .c100.p3-41 .bar3 {
+    transform: rotate(147.6deg); }
+  .c100.p3-42 .bar3 {
+    transform: rotate(151.2deg); }
+  .c100.p3-43 .bar3 {
+    transform: rotate(154.8deg); }
+  .c100.p3-44 .bar3 {
+    transform: rotate(158.4deg); }
+  .c100.p3-45 .bar3 {
+    transform: rotate(162deg); }
+  .c100.p3-46 .bar3 {
+    transform: rotate(165.6deg); }
+  .c100.p3-47 .bar3 {
+    transform: rotate(169.2deg); }
+  .c100.p3-48 .bar3 {
+    transform: rotate(172.8deg); }
+  .c100.p3-49 .bar3 {
+    transform: rotate(176.4deg); }
+  .c100.p3-50 .bar3 {
+    transform: rotate(180deg); }
+  .c100.p3-51 .bar3 {
+    transform: rotate(183.6deg); }
+  .c100.p3-52 .bar3 {
+    transform: rotate(187.2deg); }
+  .c100.p3-53 .bar3 {
+    transform: rotate(190.8deg); }
+  .c100.p3-54 .bar3 {
+    transform: rotate(194.4deg); }
+  .c100.p3-55 .bar3 {
+    transform: rotate(198deg); }
+  .c100.p3-56 .bar3 {
+    transform: rotate(201.6deg); }
+  .c100.p3-57 .bar3 {
+    transform: rotate(205.2deg); }
+  .c100.p3-58 .bar3 {
+    transform: rotate(208.8deg); }
+  .c100.p3-59 .bar3 {
+    transform: rotate(212.4deg); }
+  .c100.p3-60 .bar3 {
+    transform: rotate(216deg); }
+  .c100.p3-61 .bar3 {
+    transform: rotate(219.6deg); }
+  .c100.p3-62 .bar3 {
+    transform: rotate(223.2deg); }
+  .c100.p3-63 .bar3 {
+    transform: rotate(226.8deg); }
+  .c100.p3-64 .bar3 {
+    transform: rotate(230.4deg); }
+  .c100.p3-65 .bar3 {
+    transform: rotate(234deg); }
+  .c100.p3-66 .bar3 {
+    transform: rotate(237.6deg); }
+  .c100.p3-67 .bar3 {
+    transform: rotate(241.2deg); }
+  .c100.p3-68 .bar3 {
+    transform: rotate(244.8deg); }
+  .c100.p3-69 .bar3 {
+    transform: rotate(248.4deg); }
+  .c100.p3-70 .bar3 {
+    transform: rotate(252deg); }
+  .c100.p3-71 .bar3 {
+    transform: rotate(255.6deg); }
+  .c100.p3-72 .bar3 {
+    transform: rotate(259.2deg); }
+  .c100.p3-73 .bar3 {
+    transform: rotate(262.8deg); }
+  .c100.p3-74 .bar3 {
+    transform: rotate(266.4deg); }
+  .c100.p3-75 .bar3 {
+    transform: rotate(270deg); }
+  .c100.p3-76 .bar3 {
+    transform: rotate(273.6deg); }
+  .c100.p3-77 .bar3 {
+    transform: rotate(277.2deg); }
+  .c100.p3-78 .bar3 {
+    transform: rotate(280.8deg); }
+  .c100.p3-79 .bar3 {
+    transform: rotate(284.4deg); }
+  .c100.p3-80 .bar3 {
+    transform: rotate(288deg); }
+  .c100.p3-81 .bar3 {
+    transform: rotate(291.6deg); }
+  .c100.p3-82 .bar3 {
+    transform: rotate(295.2deg); }
+  .c100.p3-83 .bar3 {
+    transform: rotate(298.8deg); }
+  .c100.p3-84 .bar3 {
+    transform: rotate(302.4deg); }
+  .c100.p3-85 .bar3 {
+    transform: rotate(306deg); }
+  .c100.p3-86 .bar3 {
+    transform: rotate(309.6deg); }
+  .c100.p3-87 .bar3 {
+    transform: rotate(313.2deg); }
+  .c100.p3-88 .bar3 {
+    transform: rotate(316.8deg); }
+  .c100.p3-89 .bar3 {
+    transform: rotate(320.4deg); }
+  .c100.p3-90 .bar3 {
+    transform: rotate(324deg); }
+  .c100.p3-91 .bar3 {
+    transform: rotate(327.6deg); }
+  .c100.p3-92 .bar3 {
+    transform: rotate(331.2deg); }
+  .c100.p3-93 .bar3 {
+    transform: rotate(334.8deg); }
+  .c100.p3-94 .bar3 {
+    transform: rotate(338.4deg); }
+  .c100.p3-95 .bar3 {
+    transform: rotate(342deg); }
+  .c100.p3-96 .bar3 {
+    transform: rotate(345.6deg); }
+  .c100.p3-97 .bar3 {
+    transform: rotate(349.2deg); }
+  .c100.p3-98 .bar3 {
+    transform: rotate(352.8deg); }
+  .c100.p3-99 .bar3 {
+    transform: rotate(356.4deg); }
+  .c100.p3-100 .bar3 {
+    transform: rotate(360deg); }
+
+/*# sourceMappingURL=circle.css.map */
